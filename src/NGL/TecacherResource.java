@@ -24,7 +24,8 @@ public class TecacherResource {
 		sp.LaunchURL();
 		LoginLocators ll= new LoginLocators(driver);
 		ll.loginsite();
-		sp.TRListFetch();
-		sp.DriverKill();
+		sp.test();
+		//sp.TRListFetch();
+		//sp.DriverKill();
 	}
 }
