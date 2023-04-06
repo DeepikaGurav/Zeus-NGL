@@ -7,10 +7,12 @@ import org.openqa.selenium.WebElement;
 public class Element {
 
 	WebElement currentElement;
-	WebElement parent;
-	List<WebElement> child;
+	WebElement parentElement;
+	List<WebElement> childElements;
 	
-	public Element(WebElement Element){
-		
+	public Element(WebElement element, WebElement parent, List<WebElement> child){
+		currentElement = element;
+		parentElement = parent;
+		childElements = child;
 	}
 }
